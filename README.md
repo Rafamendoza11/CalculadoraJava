@@ -1,1 +1,2 @@
 # CalculadoraJava
+La calculadora es una herramienta diseñada para realizar operaciones matemáticas básicas de manera rápida y sencilla. Permite efectuar sumas, restas, multiplicaciones y divisiones introduciendo los valores numéricos correspondientes. Su funcionamiento es intuitivo, lo que facilita su uso tanto para cálculos cotidianos como para tareas más específicas, proporcionando resultados precisos de forma inmediata.
