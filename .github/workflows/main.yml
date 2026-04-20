@@ -1,0 +1,27 @@
+name: Java CI
+
+on:
+  push:
+    branches: ["*"]
+  pull_request:
+    branches: ["*"]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Descargar repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Java
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+
+      - name: Compilar proyecto
+        run: javac *.java
+
+      - name: Ejecutar tests
+        run: echo "Aquí irían los tests con JUnit"
